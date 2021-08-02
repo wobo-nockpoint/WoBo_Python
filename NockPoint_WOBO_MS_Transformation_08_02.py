@@ -221,8 +221,8 @@
 ## Login Credentials of Snowflake Instance
 import snowflake.connector
 ctx = snowflake.connector.connect(
-    user='nockpoint',
-    password='insert credentials here. Recommend using key based authentication',
+    user='Snowflake user name',
+    password='Snowflake password. Recommend using key based authentication',
     account='bo44078',
     database='VENDORS',
     schema='Reference'
